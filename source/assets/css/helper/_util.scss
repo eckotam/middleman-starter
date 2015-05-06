@@ -1,0 +1,62 @@
+/*=========================================
+=            Background Colors            =
+=========================================*/
+
+
+/*===================================
+=            Text Colors            =
+===================================*/
+
+
+/*======================================
+=            Margin/Padding            =
+======================================*/
+$levels:	4;
+$offset: 	10;
+
+@for $i from 0 through $levels {
+	// Margins
+	.m-#{$i} {
+		margin: $i * $offset + px!important;
+	}
+
+	.mt-#{$i} {
+		margin-top: $i * $offset + px!important;
+	}
+
+	.mb-#{$i} {
+		margin-bottom: $i * $offset + px!important;
+	}
+
+	.ml-#{$i} {
+		margin-left: $i * $offset + px!important;
+	}
+
+	.mr-#{$i} {
+		margin-right: $i * $offset + px!important;
+	}
+
+	// Paddings
+	.p-#{$i} {
+		padding: $i * $offset + px!important;
+	}
+
+	.pt-#{$i} {
+		padding-top: $i * $offset + px!important;
+	}
+
+	.pb-#{$i} {
+		padding-bottom: $i * $offset + px!important;
+	}
+
+	.pl-#{$i} {
+		padding-left: $i * $offset + px!important;
+	}
+
+	.pr-#{$i} {
+		padding-right: $i * $offset + px!important;
+	}
+}
+
+
+

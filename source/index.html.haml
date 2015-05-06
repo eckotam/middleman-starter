@@ -1,0 +1,36 @@
+---
+title: Kitty's Images
+---
+%nav.top-bar{"data-topbar" => true, :role => "navigation"}
+	%ul.title-area
+		%li.name
+			%h1=link_to 'My Site', '#'
+		%li.toggle-topbar.menu-icon
+			%a{:href => "#"}
+				%span Menu
+	%sectionion.top-bar-section
+		%ul.right
+			%li.active
+				%a{:href => "#"} Right Button Active
+			%li.has-dropdown
+				%a{:href => "#"} Right Button Dropdown
+				%ul.dropdown
+					%li
+						%a{:href => "/about"} About
+					%li.active
+						%a{:href => "#"} Link 2
+		%ul.left
+			%li
+				%a{:href => "#"} Left Nav Button
+.row
+	.small-6.columns
+		%ul.example-orbit-content{"data-orbit" => true}
+			%li{"data-orbit-slide" => "headline-1"}
+				%div
+					%h2 Headline 1
+					%h3 Subheadline
+			%li{"data-orbit-slide" => "headline-2"}
+				%div
+					%h2 Headline 2
+					%h3 Subheadline
+	.small-6.columns

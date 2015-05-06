@@ -1,0 +1,40 @@
+/*============================================
+=            Basice HTML Elements            =
+============================================*/
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	font-family: $base-font-family;
+	font-weight: $base-font-weight;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	// color: $brand-color;
+	@include transition ( color 0.3s ease-in-out );
+
+	&:hover, &:active, &:visited, &:focus{
+		outline: none;
+		text-decoration: none;
+	}
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}

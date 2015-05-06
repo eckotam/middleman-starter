@@ -1,0 +1,30 @@
+/*=======================================
+=            General Helpers            =
+=======================================*/
+.clearfix{
+	@include clearfix;
+}
+
+// Vertical Center Elements
+.parent{
+	display: table;
+	height: 100%;
+	width: 100%;
+
+	.child{
+		display: table-cell;
+		width: 100%;
+
+		vertical-align: middle;
+	}
+}
+
+/*==================================
+=            JS Heleprs            =
+==================================*/
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+
+

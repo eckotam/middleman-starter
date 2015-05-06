@@ -1,0 +1,30 @@
+h1, h2, h3,
+h4, h5, h6{
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
+}
+
+h1, .alpha{
+	font-size: $font-size-alpha;
+}
+
+h2, .beta{
+	font-size: $font-size-beta;
+}
+
+h3, .gamma{
+	font-size: $font-size-gamma;
+}
+
+h4, .delta{
+	font-size: $font-size-delta;
+}
+
+h5, .epsilon{
+	font-size: $font-size-epsilon;
+}
+
+h6, .zeta{
+	font-size: $font-size-zeta;
+}
