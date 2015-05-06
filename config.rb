@@ -17,7 +17,7 @@ set :haml, { :ugly => true, :format => :html5 }
 
 # Bower Configuration
 after_configuration do
-	sprockets.append_path File.join root, "bower_compoents"
+	sprockets.append_path File.join root, "bower_components"
 end
 
 # Import packages from bower
