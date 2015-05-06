@@ -17,8 +17,7 @@ set :haml, { :ugly => true, :format => :html5 }
 
 # Bower Configuration
 after_configuration do
-	@bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
-	sprockets.append_path File.join "#{root}", @bower_config["directory"]
+	sprockets.append_path File.join root, "bower_compoents"
 end
 
 # Import packages from bower
