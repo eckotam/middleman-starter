@@ -18,6 +18,9 @@ set :haml, { :ugly => true, :format => :html5 }
 # Bower Configuration
 after_configuration do
 	sprockets.append_path File.join root, "bower_components"
+	sprockets.append_path '../bower_components/foundation/scss'
+	sprockets.append_path '../bower_components/font-awesome/scss'
+	sprockets.append_path '../bower_components/font-awesome/fonts'
 end
 
 # Import packages from bower

@@ -1,11 +1,18 @@
+// Colours
+@import "palette";
+
+// Foundation
 @import "settings";
 @import "foundation";
 
+// Font Awesome
+@import "font-awesome";
+
+// Bourbon Mixin Library
 @import "bourbon";
 
 // Variables
 @import "vars";
-@import "palette";
 
 // Helper
 @import "helper/extends";
