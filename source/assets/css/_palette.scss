@@ -1,0 +1,31 @@
+/*===================================
+=            Brand Color            =
+===================================*/
+// $brand-color: 						;
+
+/*========================================
+=            Supporting Color            =
+========================================*/
+// Grey Support Color
+$grey-color-darkest: 				#333333;
+$grey-color-darker: 				#555555;
+$grey-color-dark: 					#777777;
+$grey-color: 						#999999;
+$grey-color-light: 					#B9B9B9;
+$grey-color-lighter: 				#EEEEEE;
+$grey-color-lightest: 				#F4F4F4;
+
+// Social Media Color
+$facebook: 							#3B5998;
+$twitter: 							#00ACED;
+$linkedin: 							#007BB6;
+$facebook-hover: 					lighten($facebook, 5%);
+$twitter-hover: 					lighten($twitter, 5%);
+$linkedin-hover: 					lighten($linkedin, 5%);
+
+/*==============================================
+=            Custom Color Variables            =
+==============================================*/
+// Custom Colors Variables
+$text-color: 						$grey-color-darker;
+$border-color: 						$grey-color-lighter;
